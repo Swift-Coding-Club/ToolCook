@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CCDB31E29AA44CD00D58154 /* StartStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31B29AA44CD00D58154 /* StartStop.swift */; };
+		2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31C29AA44CD00D58154 /* TimerView.swift */; };
+		2CCDB32029AA44CD00D58154 /* PastaSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */; };
+		2CE878A729ADFB2D0078E233 /* SuhaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */; };
 		B787E74229A756DD00FD9ABB /* PastaTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */; };
 		B787E74429A756DD00FD9ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74329A756DD00FD9ABB /* ContentView.swift */; };
 		B787E74629A756DF00FD9ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B787E74529A756DF00FD9ABB /* Assets.xcassets */; };
@@ -16,7 +20,28 @@
 		EF71723C29A9C28F0064CEA9 /* RxTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71723B29A9C28F0064CEA9 /* RxTabView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2C4A3A9E29AA437300031DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4A3A8529AA437300031DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4A3A8C29AA437300031DA6;
+			remoteInfo = PastaTimer;
+		};
+		2C4A3AA829AA437300031DA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C4A3A8529AA437300031DA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C4A3A8C29AA437300031DA6;
+			remoteInfo = PastaTimer;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2CCDB31B29AA44CD00D58154 /* StartStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartStop.swift; sourceTree = "<group>"; };
+		2CCDB31C29AA44CD00D58154 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastaSelector.swift; sourceTree = "<group>"; };
+		2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuhaTabView.swift; sourceTree = "<group>"; };
 		B787E73E29A756DD00FD9ABB /* PastaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerApp.swift; sourceTree = "<group>"; };
 		B787E74329A756DD00FD9ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -28,7 +53,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B787E73B29A756DD00FD9ABB /* Frameworks */ = {
+		2C4A3A8A29AA437300031DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4A3A9A29AA437300031DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4A3AA429AA437300031DA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,26 +77,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B787E73529A756DD00FD9ABB = {
+		2C4A3A8429AA437300031DA6 = {
 			isa = PBXGroup;
 			children = (
-				B787E74F29A7570600FD9ABB /* .gitignore */,
-				B787E74029A756DD00FD9ABB /* PastaTimer */,
-				B787E73F29A756DD00FD9ABB /* Products */,
+				2C4A3A8F29AA437300031DA6 /* PastaTimer */,
+				2C4A3AA029AA437300031DA6 /* PastaTimerTests */,
+				2C4A3AAA29AA437300031DA6 /* PastaTimerUITests */,
+				2C4A3A8E29AA437300031DA6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B787E73F29A756DD00FD9ABB /* Products */ = {
+		2C4A3A8E29AA437300031DA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B787E73E29A756DD00FD9ABB /* PastaTimer.app */,
+				2C4A3A8D29AA437300031DA6 /* PastaTimer.app */,
+				2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */,
+				2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B787E74029A756DD00FD9ABB /* PastaTimer */ = {
+		2C4A3A8F29AA437300031DA6 /* PastaTimer */ = {
 			isa = PBXGroup;
 			children = (
+				2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */,
+				2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */,
+				2CCDB31B29AA44CD00D58154 /* StartStop.swift */,
+				2CCDB31C29AA44CD00D58154 /* TimerView.swift */,
 				B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */,
 				B787E74329A756DD00FD9ABB /* ContentView.swift */,
 				B787E75129A75B7C00FD9ABB /* JoelTabView.swift */,
@@ -68,50 +114,111 @@
 			path = PastaTimer;
 			sourceTree = "<group>";
 		};
-		B787E74729A756DF00FD9ABB /* Preview Content */ = {
+		2C4A3A9629AA437300031DA6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B787E74829A756DF00FD9ABB /* Preview Assets.xcassets */,
+				2C4A3A9729AA437300031DA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C4A3AA029AA437300031DA6 /* PastaTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */,
+			);
+			path = PastaTimerTests;
+			sourceTree = "<group>";
+		};
+		2C4A3AAA29AA437300031DA6 /* PastaTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */,
+				2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */,
+			);
+			path = PastaTimerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B787E73D29A756DD00FD9ABB /* PastaTimer */ = {
+		2C4A3A8C29AA437300031DA6 /* PastaTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B787E74C29A756DF00FD9ABB /* Build configuration list for PBXNativeTarget "PastaTimer" */;
+			buildConfigurationList = 2C4A3AB129AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimer" */;
 			buildPhases = (
-				B787E73A29A756DD00FD9ABB /* Sources */,
-				B787E73B29A756DD00FD9ABB /* Frameworks */,
-				B787E73C29A756DD00FD9ABB /* Resources */,
+				2C4A3A8929AA437300031DA6 /* Sources */,
+				2C4A3A8A29AA437300031DA6 /* Frameworks */,
+				2C4A3A8B29AA437300031DA6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PastaTimer;
-			productName = TooCook;
-			productReference = B787E73E29A756DD00FD9ABB /* PastaTimer.app */;
+			productName = PastaTimer;
+			productReference = 2C4A3A8D29AA437300031DA6 /* PastaTimer.app */;
 			productType = "com.apple.product-type.application";
+		};
+		2C4A3A9C29AA437300031DA6 /* PastaTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4A3AB429AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerTests" */;
+			buildPhases = (
+				2C4A3A9929AA437300031DA6 /* Sources */,
+				2C4A3A9A29AA437300031DA6 /* Frameworks */,
+				2C4A3A9B29AA437300031DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4A3A9F29AA437300031DA6 /* PBXTargetDependency */,
+			);
+			name = PastaTimerTests;
+			productName = PastaTimerTests;
+			productReference = 2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C4A3AA629AA437300031DA6 /* PastaTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C4A3AB729AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerUITests" */;
+			buildPhases = (
+				2C4A3AA329AA437300031DA6 /* Sources */,
+				2C4A3AA429AA437300031DA6 /* Frameworks */,
+				2C4A3AA529AA437300031DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C4A3AA929AA437300031DA6 /* PBXTargetDependency */,
+			);
+			name = PastaTimerUITests;
+			productName = PastaTimerUITests;
+			productReference = 2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B787E73629A756DD00FD9ABB /* Project object */ = {
+		2C4A3A8529AA437300031DA6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B787E73D29A756DD00FD9ABB = {
+					2C4A3A8C29AA437300031DA6 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					2C4A3A9C29AA437300031DA6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2C4A3A8C29AA437300031DA6;
+					};
+					2C4A3AA629AA437300031DA6 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2C4A3A8C29AA437300031DA6;
 					};
 				};
 			};
-			buildConfigurationList = B787E73929A756DD00FD9ABB /* Build configuration list for PBXProject "PastaTimer" */;
+			buildConfigurationList = 2C4A3A8829AA437300031DA6 /* Build configuration list for PBXProject "PastaTimer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,34 +226,72 @@
 				en,
 				Base,
 			);
-			mainGroup = B787E73529A756DD00FD9ABB;
-			productRefGroup = B787E73F29A756DD00FD9ABB /* Products */;
+			mainGroup = 2C4A3A8429AA437300031DA6;
+			productRefGroup = 2C4A3A8E29AA437300031DA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B787E73D29A756DD00FD9ABB /* PastaTimer */,
+				2C4A3A8C29AA437300031DA6 /* PastaTimer */,
+				2C4A3A9C29AA437300031DA6 /* PastaTimerTests */,
+				2C4A3AA629AA437300031DA6 /* PastaTimerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B787E73C29A756DD00FD9ABB /* Resources */ = {
+		2C4A3A8B29AA437300031DA6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B787E74929A756DF00FD9ABB /* Preview Assets.xcassets in Resources */,
-				B787E75029A7570600FD9ABB /* .gitignore in Resources */,
-				B787E74629A756DF00FD9ABB /* Assets.xcassets in Resources */,
+				2C4A3A9829AA437300031DA6 /* Preview Assets.xcassets in Resources */,
+				2C4A3A9529AA437300031DA6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4A3A9B29AA437300031DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4A3AA529AA437300031DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B787E73A29A756DD00FD9ABB /* Sources */ = {
+		2C4A3A8929AA437300031DA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCDB31E29AA44CD00D58154 /* StartStop.swift in Sources */,
+				2C4A3A9329AA437300031DA6 /* ContentView.swift in Sources */,
+				2CE878A929ADFDFA0078E233 /* JoelTabView.swift in Sources */,
+				2CCDB32029AA44CD00D58154 /* PastaSelector.swift in Sources */,
+				2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */,
+				2C4A3A9129AA437300031DA6 /* PastaTimerApp.swift in Sources */,
+				2CE878A729ADFB2D0078E233 /* SuhaTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4A3A9929AA437300031DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4A3AA229AA437300031DA6 /* PastaTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C4A3AA329AA437300031DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
 				B787E74429A756DD00FD9ABB /* ContentView.swift in Sources */,
 				B787E75229A75B7C00FD9ABB /* JoelTabView.swift in Sources */,
 				EF71723C29A9C28F0064CEA9 /* RxTabView.swift in Sources */,
@@ -156,8 +301,21 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2C4A3A9F29AA437300031DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4A3A8C29AA437300031DA6 /* PastaTimer */;
+			targetProxy = 2C4A3A9E29AA437300031DA6 /* PBXContainerItemProxy */;
+		};
+		2C4A3AA929AA437300031DA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C4A3A8C29AA437300031DA6 /* PastaTimer */;
+			targetProxy = 2C4A3AA829AA437300031DA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		B787E74A29A756DF00FD9ABB /* Debug */ = {
+		2C4A3AAF29AA437300031DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		B787E74B29A756DF00FD9ABB /* Release */ = {
+		2C4A3AB029AA437300031DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +429,7 @@
 			};
 			name = Release;
 		};
-		B787E74D29A756DF00FD9ABB /* Debug */ = {
+		2C4A3AB229AA437300031DA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -279,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PastaTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,22 +445,20 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ToolCook.TooCook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		B787E74E29A756DF00FD9ABB /* Release */ = {
+		2C4A3AB329AA437300031DA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PastaTimer/Preview Content\"";
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -316,43 +474,135 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ToolCook.TooCook;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C4A3AB529AA437300031DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PastaTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PastaTimer";
+			};
+			name = Debug;
+		};
+		2C4A3AB629AA437300031DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PastaTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PastaTimer";
+			};
+			name = Release;
+		};
+		2C4A3AB829AA437300031DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PastaTimer;
+			};
+			name = Debug;
+		};
+		2C4A3AB929AA437300031DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PastaTimer;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B787E73929A756DD00FD9ABB /* Build configuration list for PBXProject "PastaTimer" */ = {
+		2C4A3A8829AA437300031DA6 /* Build configuration list for PBXProject "PastaTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B787E74A29A756DF00FD9ABB /* Debug */,
-				B787E74B29A756DF00FD9ABB /* Release */,
+				2C4A3AAF29AA437300031DA6 /* Debug */,
+				2C4A3AB029AA437300031DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B787E74C29A756DF00FD9ABB /* Build configuration list for PBXNativeTarget "PastaTimer" */ = {
+		2C4A3AB129AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B787E74D29A756DF00FD9ABB /* Debug */,
-				B787E74E29A756DF00FD9ABB /* Release */,
+				2C4A3AB229AA437300031DA6 /* Debug */,
+				2C4A3AB329AA437300031DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4A3AB429AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4A3AB529AA437300031DA6 /* Debug */,
+				2C4A3AB629AA437300031DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4A3AB729AA437300031DA6 /* Build configuration list for PBXNativeTarget "PastaTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C4A3AB829AA437300031DA6 /* Debug */,
+				2C4A3AB929AA437300031DA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B787E73629A756DD00FD9ABB /* Project object */;
+	rootObject = 2C4A3A8529AA437300031DA6 /* Project object */;
 }

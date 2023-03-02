@@ -1,3 +1,9 @@
+//
+//  ContentView.swift
+//  pastar
+//
+//  Created by sueun kim on 2023/02/23.
+//
 import SwiftUI
 
 struct ContentView: View {
@@ -13,7 +19,7 @@ struct ContentView: View {
             RxTabView()
                 .tabItem {
                     Image(systemName: "2.square.fill")
-                    Text("Second")
+                    Text("Rx")
                         .tag(1)
                 }
             JoelTabView()
@@ -22,10 +28,10 @@ struct ContentView: View {
                     Text("조앨")
                         .tag(2)
                 }
-            Text("Fourth Tab")
+            SuhaTabView()
                 .tabItem {
                     Image(systemName: "4.square.fill")
-                    Text("Fourth")
+                    Text("수하")
                         .tag(3)
                 }
         }
