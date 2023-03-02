@@ -10,7 +10,7 @@ struct ContentView: View {
                     Text("First")
                         .tag(0)
                 }
-            Text("Second Tab")
+            RxTabView()
                 .tabItem {
                     Image(systemName: "2.square.fill")
                     Text("Second")
