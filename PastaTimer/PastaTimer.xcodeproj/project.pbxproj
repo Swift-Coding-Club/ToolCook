@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C4A3A9129AA437300031DA6 /* PastaTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9029AA437300031DA6 /* PastaTimerApp.swift */; };
-		2C4A3A9329AA437300031DA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9229AA437300031DA6 /* ContentView.swift */; };
-		2C4A3A9529AA437300031DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9429AA437300031DA6 /* Assets.xcassets */; };
-		2C4A3A9829AA437300031DA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C4A3A9729AA437300031DA6 /* Preview Assets.xcassets */; };
-		2C4A3AA229AA437300031DA6 /* PastaTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */; };
-		2C4A3AAC29AA437300031DA6 /* PastaTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */; };
-		2C4A3AAE29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */; };
 		2CCDB31E29AA44CD00D58154 /* StartStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31B29AA44CD00D58154 /* StartStop.swift */; };
 		2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31C29AA44CD00D58154 /* TimerView.swift */; };
 		2CCDB32029AA44CD00D58154 /* PastaSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */; };
 		2CE878A729ADFB2D0078E233 /* SuhaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */; };
-		2CE878A929ADFDFA0078E233 /* JoelTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A829ADFDFA0078E233 /* JoelTabView.swift */; };
+		B787E74229A756DD00FD9ABB /* PastaTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */; };
+		B787E74429A756DD00FD9ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74329A756DD00FD9ABB /* ContentView.swift */; };
+		B787E74629A756DF00FD9ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B787E74529A756DF00FD9ABB /* Assets.xcassets */; };
+		B787E74929A756DF00FD9ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B787E74829A756DF00FD9ABB /* Preview Assets.xcassets */; };
+		B787E75029A7570600FD9ABB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B787E74F29A7570600FD9ABB /* .gitignore */; };
+		B787E75229A75B7C00FD9ABB /* JoelTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E75129A75B7C00FD9ABB /* JoelTabView.swift */; };
+		EF71723C29A9C28F0064CEA9 /* RxTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71723B29A9C28F0064CEA9 /* RxTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,21 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C4A3A8D29AA437300031DA6 /* PastaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4A3A9029AA437300031DA6 /* PastaTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerApp.swift; sourceTree = "<group>"; };
-		2C4A3A9229AA437300031DA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2C4A3A9429AA437300031DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C4A3A9729AA437300031DA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastaTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerTests.swift; sourceTree = "<group>"; };
-		2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastaTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerUITests.swift; sourceTree = "<group>"; };
-		2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2CCDB31B29AA44CD00D58154 /* StartStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartStop.swift; sourceTree = "<group>"; };
 		2CCDB31C29AA44CD00D58154 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastaSelector.swift; sourceTree = "<group>"; };
 		2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuhaTabView.swift; sourceTree = "<group>"; };
-		2CE878A829ADFDFA0078E233 /* JoelTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoelTabView.swift; sourceTree = "<group>"; };
+		B787E73E29A756DD00FD9ABB /* PastaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerApp.swift; sourceTree = "<group>"; };
+		B787E74329A756DD00FD9ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B787E74529A756DF00FD9ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B787E74829A756DF00FD9ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B787E74F29A7570600FD9ABB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B787E75129A75B7C00FD9ABB /* JoelTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoelTabView.swift; sourceTree = "<group>"; };
+		EF71723B29A9C28F0064CEA9 /* RxTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +104,12 @@
 				2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */,
 				2CCDB31B29AA44CD00D58154 /* StartStop.swift */,
 				2CCDB31C29AA44CD00D58154 /* TimerView.swift */,
-				2C4A3A9029AA437300031DA6 /* PastaTimerApp.swift */,
-				2C4A3A9229AA437300031DA6 /* ContentView.swift */,
-				2CE878A829ADFDFA0078E233 /* JoelTabView.swift */,
-				2C4A3A9429AA437300031DA6 /* Assets.xcassets */,
-				2C4A3A9629AA437300031DA6 /* Preview Content */,
+				B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */,
+				B787E74329A756DD00FD9ABB /* ContentView.swift */,
+				B787E75129A75B7C00FD9ABB /* JoelTabView.swift */,
+				EF71723B29A9C28F0064CEA9 /* RxTabView.swift */,
+				B787E74529A756DF00FD9ABB /* Assets.xcassets */,
+				B787E74729A756DF00FD9ABB /* Preview Content */,
 			);
 			path = PastaTimer;
 			sourceTree = "<group>";
@@ -294,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4A3AAE29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift in Sources */,
-				2C4A3AAC29AA437300031DA6 /* PastaTimerUITests.swift in Sources */,
+
+				B787E74429A756DD00FD9ABB /* ContentView.swift in Sources */,
+				B787E75229A75B7C00FD9ABB /* JoelTabView.swift in Sources */,
+				EF71723C29A9C28F0064CEA9 /* RxTabView.swift in Sources */,
+				B787E74229A756DD00FD9ABB /* PastaTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
