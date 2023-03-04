@@ -4,7 +4,7 @@
   ## 프로젝트 소개
   📌 SwiftUI를 손에 익히기 위한 주간 앱 만들기 </br>
   📌 기간: 2023.02.18 ~ ing </br>
-  📌 참여자: [조앨](https://github.com/JJinuk), [만도](https://github.com/thisisthewa2), [Rx](https://github.com/kangddong), [수하](https://github.com/sueunal) </br>
+  📌 참여자: [까야](https://github.com/sayalion), [조앨](https://github.com/JJinuk), [만도](https://github.com/thisisthewa2), [Rx](https://github.com/kangddong), [수하](https://github.com/sueunal) </br>
 
 
   ## 앱 소개
@@ -23,3 +23,10 @@
 📝[Docs]: README나 WIKI 등의 문서 개정 </br>
 ✏️[Comment]: 필요한 주석 추가 및 변경 </br>
 🔀[Merge]: 머지 </br>
+
+
+## issue 설명
+* 제목은 ISSUE 성격에 맞게 자유롭게 합니다.
+* 좋은 질문이 좋은 답변을 부릅니다. 명확하게 이슈를 공유해주세요.
+* Assignees, Labels은 꼭 해주세요
+
