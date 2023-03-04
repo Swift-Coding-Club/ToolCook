@@ -1,7 +1,7 @@
 # ToolCook
   좋은 iOS앱은 좋은 의자, 책상 같은 것이라고 생각합니다. Swift UI 손에 익히기
   
-  ## 프로젝트 소개
+  ### 프로젝트 소개
   📌 SwiftUI를 손에 익히기 위한 주간 앱 만들기 </br>
   📌 기간: 2023.02.18 ~ ing </br>
   📌 참여자: [조앨](https://github.com/JJinuk), [만도](), [Rx]() </br>
