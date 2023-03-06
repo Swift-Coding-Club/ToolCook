@@ -11,6 +11,7 @@
 		2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31C29AA44CD00D58154 /* TimerView.swift */; };
 		2CCDB32029AA44CD00D58154 /* PastaSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */; };
 		2CE878A729ADFB2D0078E233 /* SuhaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */; };
+		4B6D7ACB29B5ACF1003E92E2 /* MandoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6D7ACA29B5ACF1003E92E2 /* MandoTabView.swift */; };
 		EF5D95F729B37E780087B515 /* PastaTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */; };
 		EF5D95F829B37E7D0087B515 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74329A756DD00FD9ABB /* ContentView.swift */; };
 		EF5D95F929B37E820087B515 /* JoelTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E75129A75B7C00FD9ABB /* JoelTabView.swift */; };
@@ -39,6 +40,7 @@
 		2CCDB31C29AA44CD00D58154 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastaSelector.swift; sourceTree = "<group>"; };
 		2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuhaTabView.swift; sourceTree = "<group>"; };
+		4B6D7ACA29B5ACF1003E92E2 /* MandoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MandoTabView.swift; sourceTree = "<group>"; };
 		B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerApp.swift; sourceTree = "<group>"; };
 		B787E74329A756DD00FD9ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B787E74529A756DF00FD9ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				B787E75129A75B7C00FD9ABB /* JoelTabView.swift */,
 				EF71723B29A9C28F0064CEA9 /* RxTabView.swift */,
 				B787E74529A756DF00FD9ABB /* Assets.xcassets */,
+				4B6D7ACA29B5ACF1003E92E2 /* MandoTabView.swift */,
 			);
 			path = PastaTimer;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				EF5D95F829B37E7D0087B515 /* ContentView.swift in Sources */,
 				2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */,
 				2CE878A729ADFB2D0078E233 /* SuhaTabView.swift in Sources */,
+				4B6D7ACB29B5ACF1003E92E2 /* MandoTabView.swift in Sources */,
 				EF5D95FA29B37E860087B515 /* RxTabView.swift in Sources */,
 				EF5D95F729B37E780087B515 /* PastaTimerApp.swift in Sources */,
 			);
@@ -406,7 +410,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PastaTimer/Preview Content\"";
-				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				DEVELOPMENT_TEAM = T9YR8BW7J5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -436,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PastaTimer/Preview Content\"";
-				DEVELOPMENT_TEAM = FL4QTRRKMD;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -485,7 +489,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -522,7 +526,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.PastaTimerUITests;

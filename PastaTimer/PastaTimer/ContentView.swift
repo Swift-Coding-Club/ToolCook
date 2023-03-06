@@ -10,10 +10,10 @@ struct ContentView: View {
     @State private var selection = 0
     var body: some View {
         TabView {
-            Text("First Tab")
+            MandoTabView()
                 .tabItem {
                     Image(systemName: "1.square.fill")
-                    Text("First")
+                    Text("Mando")
                         .tag(0)
                 }
             RxTabView()
