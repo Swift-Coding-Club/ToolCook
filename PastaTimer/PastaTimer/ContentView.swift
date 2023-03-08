@@ -34,6 +34,12 @@ struct ContentView: View {
                     Text("수하")
                         .tag(3)
                 }
+            KkayaTabView()
+                .tabItem {
+                    Image(systemName: "5.square.fill")
+                    Text("까야")
+                        .tag(4)
+                }
         }
     }
 }

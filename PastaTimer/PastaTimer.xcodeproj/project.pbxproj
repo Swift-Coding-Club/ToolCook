@@ -13,10 +13,8 @@
 		2CE878A729ADFB2D0078E233 /* SuhaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */; };
 		B787E74229A756DD00FD9ABB /* PastaTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */; };
 		B787E74429A756DD00FD9ABB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E74329A756DD00FD9ABB /* ContentView.swift */; };
-		B787E74629A756DF00FD9ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B787E74529A756DF00FD9ABB /* Assets.xcassets */; };
-		B787E74929A756DF00FD9ABB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B787E74829A756DF00FD9ABB /* Preview Assets.xcassets */; };
-		B787E75029A7570600FD9ABB /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B787E74F29A7570600FD9ABB /* .gitignore */; };
 		B787E75229A75B7C00FD9ABB /* JoelTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B787E75129A75B7C00FD9ABB /* JoelTabView.swift */; };
+		CBE105E729B8F7A30011550F /* KkayaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE105E629B8F7A30011550F /* KkayaTabView.swift */; };
 		EF71723C29A9C28F0064CEA9 /* RxTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF71723B29A9C28F0064CEA9 /* RxTabView.swift */; };
 /* End PBXBuildFile section */
 
@@ -42,13 +40,11 @@
 		2CCDB31C29AA44CD00D58154 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2CCDB31D29AA44CD00D58154 /* PastaSelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastaSelector.swift; sourceTree = "<group>"; };
 		2CE878A629ADFB2D0078E233 /* SuhaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuhaTabView.swift; sourceTree = "<group>"; };
-		B787E73E29A756DD00FD9ABB /* PastaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastaTimerApp.swift; sourceTree = "<group>"; };
 		B787E74329A756DD00FD9ABB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B787E74529A756DF00FD9ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B787E74829A756DF00FD9ABB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B787E74F29A7570600FD9ABB /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B787E75129A75B7C00FD9ABB /* JoelTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoelTabView.swift; sourceTree = "<group>"; };
+		CBE105E629B8F7A30011550F /* KkayaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KkayaTabView.swift; sourceTree = "<group>"; };
 		EF71723B29A9C28F0064CEA9 /* RxTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,9 +86,6 @@
 		2C4A3A8E29AA437300031DA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2C4A3A8D29AA437300031DA6 /* PastaTimer.app */,
-				2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */,
-				2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,25 +100,16 @@
 				B787E74129A756DD00FD9ABB /* PastaTimerApp.swift */,
 				B787E74329A756DD00FD9ABB /* ContentView.swift */,
 				B787E75129A75B7C00FD9ABB /* JoelTabView.swift */,
+				CBE105E629B8F7A30011550F /* KkayaTabView.swift */,
 				EF71723B29A9C28F0064CEA9 /* RxTabView.swift */,
 				B787E74529A756DF00FD9ABB /* Assets.xcassets */,
-				B787E74729A756DF00FD9ABB /* Preview Content */,
 			);
 			path = PastaTimer;
-			sourceTree = "<group>";
-		};
-		2C4A3A9629AA437300031DA6 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2C4A3A9729AA437300031DA6 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		2C4A3AA029AA437300031DA6 /* PastaTimerTests */ = {
 			isa = PBXGroup;
 			children = (
-				2C4A3AA129AA437300031DA6 /* PastaTimerTests.swift */,
 			);
 			path = PastaTimerTests;
 			sourceTree = "<group>";
@@ -133,8 +117,6 @@
 		2C4A3AAA29AA437300031DA6 /* PastaTimerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2C4A3AAB29AA437300031DA6 /* PastaTimerUITests.swift */,
-				2C4A3AAD29AA437300031DA6 /* PastaTimerUITestsLaunchTests.swift */,
 			);
 			path = PastaTimerUITests;
 			sourceTree = "<group>";
@@ -156,7 +138,6 @@
 			);
 			name = PastaTimer;
 			productName = PastaTimer;
-			productReference = 2C4A3A8D29AA437300031DA6 /* PastaTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2C4A3A9C29AA437300031DA6 /* PastaTimerTests */ = {
@@ -174,7 +155,6 @@
 			);
 			name = PastaTimerTests;
 			productName = PastaTimerTests;
-			productReference = 2C4A3A9D29AA437300031DA6 /* PastaTimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		2C4A3AA629AA437300031DA6 /* PastaTimerUITests */ = {
@@ -192,7 +172,6 @@
 			);
 			name = PastaTimerUITests;
 			productName = PastaTimerUITests;
-			productReference = 2C4A3AA729AA437300031DA6 /* PastaTimerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -243,8 +222,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4A3A9829AA437300031DA6 /* Preview Assets.xcassets in Resources */,
-				2C4A3A9529AA437300031DA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,12 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CCDB31E29AA44CD00D58154 /* StartStop.swift in Sources */,
-				2C4A3A9329AA437300031DA6 /* ContentView.swift in Sources */,
-				2CE878A929ADFDFA0078E233 /* JoelTabView.swift in Sources */,
 				2CCDB32029AA44CD00D58154 /* PastaSelector.swift in Sources */,
 				2CCDB31F29AA44CD00D58154 /* TimerView.swift in Sources */,
-				2C4A3A9129AA437300031DA6 /* PastaTimerApp.swift in Sources */,
 				2CE878A729ADFB2D0078E233 /* SuhaTabView.swift in Sources */,
+				CBE105E729B8F7A30011550F /* KkayaTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C4A3AA229AA437300031DA6 /* PastaTimerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
 				B787E74429A756DD00FD9ABB /* ContentView.swift in Sources */,
 				B787E75229A75B7C00FD9ABB /* JoelTabView.swift in Sources */,
 				EF71723C29A9C28F0064CEA9 /* RxTabView.swift in Sources */,
