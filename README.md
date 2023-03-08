@@ -4,7 +4,7 @@
   ## 프로젝트 소개
   📌 SwiftUI를 손에 익히기 위한 주간 앱 만들기 </br>
   📌 기간: 2023.02.18 ~ ing </br>
-  📌 참여자: [조앨](https://github.com/JJinuk), [만도](https://github.com/thisisthewa2), [Rx](https://github.com/kangddong), [수하](https://github.com/sueunal) </br>
+  📌 참여자: [조앨](https://github.com/JJinuk), [만도](https://github.com/thisisthewa2), [Rx](https://github.com/kangddong), [수하](https://github.com/sueunal) [까야] (https://github.com/sayalion) </br>
 
 
   ## 앱 소개
