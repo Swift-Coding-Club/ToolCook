@@ -13,6 +13,7 @@
 		B7A908D129B9D84800B6A76C /* MusicSamples in Resources */ = {isa = PBXBuildFile; fileRef = B7A908D029B9D84800B6A76C /* MusicSamples */; };
 		B7A908D529BB188000B6A76C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A908D429BB188000B6A76C /* ContentView.swift */; };
 		B7A908D729BB402300B6A76C /* PlaylistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A908D629BB402300B6A76C /* PlaylistView.swift */; };
+		B7A908DA29BB6E1E00B6A76C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B7A908D929BB6E1E00B6A76C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B7A908D029B9D84800B6A76C /* MusicSamples */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MusicSamples; path = ../../../../Downloads/MusicPlaylist_samples/MusicSamples; sourceTree = "<group>"; };
 		B7A908D429BB188000B6A76C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
 		B7A908D629BB402300B6A76C /* PlaylistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistView.swift; sourceTree = "<group>"; };
+		B7A908D929BB6E1E00B6A76C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		B746D6E129B0E7E000EC945B = {
 			isa = PBXGroup;
 			children = (
+				B7A908D929BB6E1E00B6A76C /* .gitignore */,
 				B7A908D029B9D84800B6A76C /* MusicSamples */,
 				B746D6EC29B0E7E000EC945B /* MusicPlaylist */,
 				B746D6EB29B0E7E000EC945B /* Products */,
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A908DA29BB6E1E00B6A76C /* .gitignore in Resources */,
 				B746D6F529B0E7E100EC945B /* Preview Assets.xcassets in Resources */,
 				B7A908D129B9D84800B6A76C /* MusicSamples in Resources */,
 				B746D6F229B0E7E100EC945B /* Assets.xcassets in Resources */,
