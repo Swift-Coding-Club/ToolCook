@@ -28,7 +28,6 @@ struct ContentView: View {
                     Text("조앨")
                         .tag(2)
                 }
-            SuhaTabView()
                 .tabItem {
                     Image(systemName: "4.square.fill")
                     Text("수하")

@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CD76D1729C0B07000BF0400 /* Andromedik & Murdock - Light (feat. Dualistic) [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1629C0B07000BF0400 /* Andromedik & Murdock - Light (feat. Dualistic) [NCS Release].mp3 */; };
+		2CD76D2329C0B37300BF0400 /* Arc North - Symphony (feat. Donna Tella) [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1829C0B37300BF0400 /* Arc North - Symphony (feat. Donna Tella) [NCS Release].mp3 */; };
+		2CD76D2429C0B37300BF0400 /* Arcando - In My Head (feat. Britt Lari) [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1929C0B37300BF0400 /* Arcando - In My Head (feat. Britt Lari) [NCS Release].mp3 */; };
+		2CD76D2529C0B37300BF0400 /* Vizzen & Protolizard - Heaven Knows [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1A29C0B37300BF0400 /* Vizzen & Protolizard - Heaven Knows [NCS Release].mp3 */; };
+		2CD76D2629C0B37300BF0400 /* Egzod, Maestro Chives, Neoni - Royalty [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1B29C0B37300BF0400 /* Egzod, Maestro Chives, Neoni - Royalty [NCS Release].mp3 */; };
+		2CD76D2729C0B37300BF0400 /* PLEEG - Spirit [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1C29C0B37300BF0400 /* PLEEG - Spirit [NCS Release].mp3 */; };
+		2CD76D2829C0B37300BF0400 /* N3WPORT x Britt Lari - Paradise [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1D29C0B37300BF0400 /* N3WPORT x Britt Lari - Paradise [NCS Release].mp3 */; };
+		2CD76D2929C0B37300BF0400 /* Sam Ourt, AKIAL & Srikar - Escape (Juan Dileju & Sam Ourt VIP Mix) [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1E29C0B37300BF0400 /* Sam Ourt, AKIAL & Srikar - Escape (Juan Dileju & Sam Ourt VIP Mix) [NCS Release].mp3 */; };
+		2CD76D2A29C0B37300BF0400 /* Sharks - Shiver [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D1F29C0B37300BF0400 /* Sharks - Shiver [NCS Release].mp3 */; };
+		2CD76D2B29C0B37300BF0400 /* Jack Shore & Tollef - Dreaming of Me (feat. Jaime Deraz) [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D2029C0B37300BF0400 /* Jack Shore & Tollef - Dreaming of Me (feat. Jaime Deraz) [NCS Release].mp3 */; };
+		2CD76D2C29C0B37300BF0400 /* Rival - Falling (with CRVN) [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D2129C0B37300BF0400 /* Rival - Falling (with CRVN) [NCS Release].mp3 */; };
+		2CD76D2D29C0B37300BF0400 /* ROY KNOX & CRVN - The Other Side [NCS Release].mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD76D2229C0B37300BF0400 /* ROY KNOX & CRVN - The Other Side [NCS Release].mp3 */; };
+		2CE878B729AF68C30078E233 /* MusicPlaylistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878B629AF68C30078E233 /* MusicPlaylistApp.swift */; };
+		2CE878B929AF68C30078E233 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878B829AF68C30078E233 /* ContentView.swift */; };
+		2CE878BB29AF68C40078E233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE878BA29AF68C40078E233 /* Assets.xcassets */; };
+		2CE878BE29AF68C40078E233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CE878BD29AF68C40078E233 /* Preview Assets.xcassets */; };
+		2CE878C829AF68C40078E233 /* MusicPlaylistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878C729AF68C40078E233 /* MusicPlaylistTests.swift */; };
+		2CE878D229AF68C40078E233 /* MusicPlaylistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878D129AF68C40078E233 /* MusicPlaylistUITests.swift */; };
+		2CE878D429AF68C40078E233 /* MusicPlaylistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878D329AF68C40078E233 /* MusicPlaylistUITestsLaunchTests.swift */; };
+		2CE878E129B093350078E233 /* SuhaTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878E029B093350078E233 /* SuhaTabView.swift */; };
+		2CE878E329B4E31B0078E233 /* MusicPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE878E229B4E31B0078E233 /* MusicPlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CE878C429AF68C40078E233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE878AB29AF68C30078E233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE878B229AF68C30078E233;
+			remoteInfo = MusicPlaylist;
+		};
+		2CE878CE29AF68C40078E233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CE878AB29AF68C30078E233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CE878B229AF68C30078E233;
+			remoteInfo = MusicPlaylist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C48B97829BC40F2001A273F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2CD76D1629C0B07000BF0400 /* Andromedik & Murdock - Light (feat. Dualistic) [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Andromedik & Murdock - Light (feat. Dualistic) [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Andromedik & Murdock - Light (feat. Dualistic) [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1829C0B37300BF0400 /* Arc North - Symphony (feat. Donna Tella) [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Arc North - Symphony (feat. Donna Tella) [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Arc North - Symphony (feat. Donna Tella) [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1929C0B37300BF0400 /* Arcando - In My Head (feat. Britt Lari) [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Arcando - In My Head (feat. Britt Lari) [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Arcando - In My Head (feat. Britt Lari) [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1A29C0B37300BF0400 /* Vizzen & Protolizard - Heaven Knows [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Vizzen & Protolizard - Heaven Knows [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Vizzen & Protolizard - Heaven Knows [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1B29C0B37300BF0400 /* Egzod, Maestro Chives, Neoni - Royalty [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Egzod, Maestro Chives, Neoni - Royalty [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Egzod, Maestro Chives, Neoni - Royalty [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1C29C0B37300BF0400 /* PLEEG - Spirit [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "PLEEG - Spirit [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/PLEEG - Spirit [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1D29C0B37300BF0400 /* N3WPORT x Britt Lari - Paradise [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "N3WPORT x Britt Lari - Paradise [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/N3WPORT x Britt Lari - Paradise [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1E29C0B37300BF0400 /* Sam Ourt, AKIAL & Srikar - Escape (Juan Dileju & Sam Ourt VIP Mix) [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Sam Ourt, AKIAL & Srikar - Escape (Juan Dileju & Sam Ourt VIP Mix) [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Sam Ourt, AKIAL & Srikar - Escape (Juan Dileju & Sam Ourt VIP Mix) [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D1F29C0B37300BF0400 /* Sharks - Shiver [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Sharks - Shiver [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Sharks - Shiver [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D2029C0B37300BF0400 /* Jack Shore & Tollef - Dreaming of Me (feat. Jaime Deraz) [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Jack Shore & Tollef - Dreaming of Me (feat. Jaime Deraz) [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Jack Shore & Tollef - Dreaming of Me (feat. Jaime Deraz) [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D2129C0B37300BF0400 /* Rival - Falling (with CRVN) [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Rival - Falling (with CRVN) [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/Rival - Falling (with CRVN) [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CD76D2229C0B37300BF0400 /* ROY KNOX & CRVN - The Other Side [NCS Release].mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "ROY KNOX & CRVN - The Other Side [NCS Release].mp3"; path = "../../../Downloads/MusicPlaylist_samples/MusicSamples_Converted/ROY KNOX & CRVN - The Other Side [NCS Release].mp3"; sourceTree = "<group>"; };
+		2CE878B329AF68C30078E233 /* MusicPlaylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlaylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE878B629AF68C30078E233 /* MusicPlaylistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaylistApp.swift; sourceTree = "<group>"; };
+		2CE878B829AF68C30078E233 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2CE878BA29AF68C40078E233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CE878BD29AF68C40078E233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2CE878C329AF68C40078E233 /* MusicPlaylistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlaylistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE878C729AF68C40078E233 /* MusicPlaylistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaylistTests.swift; sourceTree = "<group>"; };
+		2CE878CD29AF68C40078E233 /* MusicPlaylistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlaylistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE878D129AF68C40078E233 /* MusicPlaylistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaylistUITests.swift; sourceTree = "<group>"; };
+		2CE878D329AF68C40078E233 /* MusicPlaylistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaylistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CE878E029B093350078E233 /* SuhaTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuhaTabView.swift; sourceTree = "<group>"; };
+		2CE878E229B4E31B0078E233 /* MusicPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CE878B029AF68C30078E233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE878C029AF68C40078E233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE878CA29AF68C40078E233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CE878AA29AF68C30078E233 = {
+			isa = PBXGroup;
+			children = (
+				2CE878B529AF68C30078E233 /* MusicPlaylist */,
+				2CE878C629AF68C40078E233 /* MusicPlaylistTests */,
+				2CE878D029AF68C40078E233 /* MusicPlaylistUITests */,
+				2CE878B429AF68C30078E233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CE878B429AF68C30078E233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CE878B329AF68C30078E233 /* MusicPlaylist.app */,
+				2CE878C329AF68C40078E233 /* MusicPlaylistTests.xctest */,
+				2CE878CD29AF68C40078E233 /* MusicPlaylistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CE878B529AF68C30078E233 /* MusicPlaylist */ = {
+			isa = PBXGroup;
+			children = (
+				2C48B97829BC40F2001A273F /* Info.plist */,
+				2CD76D1629C0B07000BF0400 /* Andromedik & Murdock - Light (feat. Dualistic) [NCS Release].mp3 */,
+				2CD76D1829C0B37300BF0400 /* Arc North - Symphony (feat. Donna Tella) [NCS Release].mp3 */,
+				2CD76D1929C0B37300BF0400 /* Arcando - In My Head (feat. Britt Lari) [NCS Release].mp3 */,
+				2CD76D1B29C0B37300BF0400 /* Egzod, Maestro Chives, Neoni - Royalty [NCS Release].mp3 */,
+				2CD76D2029C0B37300BF0400 /* Jack Shore & Tollef - Dreaming of Me (feat. Jaime Deraz) [NCS Release].mp3 */,
+				2CD76D1D29C0B37300BF0400 /* N3WPORT x Britt Lari - Paradise [NCS Release].mp3 */,
+				2CD76D1C29C0B37300BF0400 /* PLEEG - Spirit [NCS Release].mp3 */,
+				2CD76D2129C0B37300BF0400 /* Rival - Falling (with CRVN) [NCS Release].mp3 */,
+				2CD76D2229C0B37300BF0400 /* ROY KNOX & CRVN - The Other Side [NCS Release].mp3 */,
+				2CD76D1E29C0B37300BF0400 /* Sam Ourt, AKIAL & Srikar - Escape (Juan Dileju & Sam Ourt VIP Mix) [NCS Release].mp3 */,
+				2CD76D1F29C0B37300BF0400 /* Sharks - Shiver [NCS Release].mp3 */,
+				2CD76D1A29C0B37300BF0400 /* Vizzen & Protolizard - Heaven Knows [NCS Release].mp3 */,
+				2CE878B629AF68C30078E233 /* MusicPlaylistApp.swift */,
+				2CE878B829AF68C30078E233 /* ContentView.swift */,
+				2CE878E029B093350078E233 /* SuhaTabView.swift */,
+				2CE878E229B4E31B0078E233 /* MusicPlayView.swift */,
+				2CE878BA29AF68C40078E233 /* Assets.xcassets */,
+				2CE878BC29AF68C40078E233 /* Preview Content */,
+			);
+			path = MusicPlaylist;
+			sourceTree = "<group>";
+		};
+		2CE878BC29AF68C40078E233 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2CE878BD29AF68C40078E233 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2CE878C629AF68C40078E233 /* MusicPlaylistTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE878C729AF68C40078E233 /* MusicPlaylistTests.swift */,
+			);
+			path = MusicPlaylistTests;
+			sourceTree = "<group>";
+		};
+		2CE878D029AF68C40078E233 /* MusicPlaylistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CE878D129AF68C40078E233 /* MusicPlaylistUITests.swift */,
+				2CE878D329AF68C40078E233 /* MusicPlaylistUITestsLaunchTests.swift */,
+			);
+			path = MusicPlaylistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CE878B229AF68C30078E233 /* MusicPlaylist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE878D729AF68C40078E233 /* Build configuration list for PBXNativeTarget "MusicPlaylist" */;
+			buildPhases = (
+				2CE878AF29AF68C30078E233 /* Sources */,
+				2CE878B029AF68C30078E233 /* Frameworks */,
+				2CE878B129AF68C30078E233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlaylist;
+			productName = MusicPlaylist;
+			productReference = 2CE878B329AF68C30078E233 /* MusicPlaylist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CE878C229AF68C40078E233 /* MusicPlaylistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE878DA29AF68C40078E233 /* Build configuration list for PBXNativeTarget "MusicPlaylistTests" */;
+			buildPhases = (
+				2CE878BF29AF68C40078E233 /* Sources */,
+				2CE878C029AF68C40078E233 /* Frameworks */,
+				2CE878C129AF68C40078E233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE878C529AF68C40078E233 /* PBXTargetDependency */,
+			);
+			name = MusicPlaylistTests;
+			productName = MusicPlaylistTests;
+			productReference = 2CE878C329AF68C40078E233 /* MusicPlaylistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CE878CC29AF68C40078E233 /* MusicPlaylistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE878DD29AF68C40078E233 /* Build configuration list for PBXNativeTarget "MusicPlaylistUITests" */;
+			buildPhases = (
+				2CE878C929AF68C40078E233 /* Sources */,
+				2CE878CA29AF68C40078E233 /* Frameworks */,
+				2CE878CB29AF68C40078E233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CE878CF29AF68C40078E233 /* PBXTargetDependency */,
+			);
+			name = MusicPlaylistUITests;
+			productName = MusicPlaylistUITests;
+			productReference = 2CE878CD29AF68C40078E233 /* MusicPlaylistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CE878AB29AF68C30078E233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2CE878B229AF68C30078E233 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					2CE878C229AF68C40078E233 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2CE878B229AF68C30078E233;
+					};
+					2CE878CC29AF68C40078E233 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2CE878B229AF68C30078E233;
+					};
+				};
+			};
+			buildConfigurationList = 2CE878AE29AF68C30078E233 /* Build configuration list for PBXProject "MusicPlaylist" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CE878AA29AF68C30078E233;
+			productRefGroup = 2CE878B429AF68C30078E233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CE878B229AF68C30078E233 /* MusicPlaylist */,
+				2CE878C229AF68C40078E233 /* MusicPlaylistTests */,
+				2CE878CC29AF68C40078E233 /* MusicPlaylistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE878B129AF68C30078E233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD76D2729C0B37300BF0400 /* PLEEG - Spirit [NCS Release].mp3 in Resources */,
+				2CD76D2D29C0B37300BF0400 /* ROY KNOX & CRVN - The Other Side [NCS Release].mp3 in Resources */,
+				2CD76D2B29C0B37300BF0400 /* Jack Shore & Tollef - Dreaming of Me (feat. Jaime Deraz) [NCS Release].mp3 in Resources */,
+				2CD76D2529C0B37300BF0400 /* Vizzen & Protolizard - Heaven Knows [NCS Release].mp3 in Resources */,
+				2CD76D2A29C0B37300BF0400 /* Sharks - Shiver [NCS Release].mp3 in Resources */,
+				2CD76D1729C0B07000BF0400 /* Andromedik & Murdock - Light (feat. Dualistic) [NCS Release].mp3 in Resources */,
+				2CD76D2C29C0B37300BF0400 /* Rival - Falling (with CRVN) [NCS Release].mp3 in Resources */,
+				2CD76D2429C0B37300BF0400 /* Arcando - In My Head (feat. Britt Lari) [NCS Release].mp3 in Resources */,
+				2CD76D2929C0B37300BF0400 /* Sam Ourt, AKIAL & Srikar - Escape (Juan Dileju & Sam Ourt VIP Mix) [NCS Release].mp3 in Resources */,
+				2CE878BE29AF68C40078E233 /* Preview Assets.xcassets in Resources */,
+				2CD76D2829C0B37300BF0400 /* N3WPORT x Britt Lari - Paradise [NCS Release].mp3 in Resources */,
+				2CD76D2629C0B37300BF0400 /* Egzod, Maestro Chives, Neoni - Royalty [NCS Release].mp3 in Resources */,
+				2CE878BB29AF68C40078E233 /* Assets.xcassets in Resources */,
+				2CD76D2329C0B37300BF0400 /* Arc North - Symphony (feat. Donna Tella) [NCS Release].mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE878C129AF68C40078E233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE878CB29AF68C40078E233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CE878AF29AF68C30078E233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE878E329B4E31B0078E233 /* MusicPlayView.swift in Sources */,
+				2CE878B929AF68C30078E233 /* ContentView.swift in Sources */,
+				2CE878B729AF68C30078E233 /* MusicPlaylistApp.swift in Sources */,
+				2CE878E129B093350078E233 /* SuhaTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE878BF29AF68C40078E233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE878C829AF68C40078E233 /* MusicPlaylistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE878C929AF68C40078E233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE878D429AF68C40078E233 /* MusicPlaylistUITestsLaunchTests.swift in Sources */,
+				2CE878D229AF68C40078E233 /* MusicPlaylistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CE878C529AF68C40078E233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE878B229AF68C30078E233 /* MusicPlaylist */;
+			targetProxy = 2CE878C429AF68C40078E233 /* PBXContainerItemProxy */;
+		};
+		2CE878CF29AF68C40078E233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CE878B229AF68C30078E233 /* MusicPlaylist */;
+			targetProxy = 2CE878CE29AF68C40078E233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CE878D529AF68C40078E233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CE878D629AF68C40078E233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CE878D829AF68C40078E233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicPlaylist/Preview Content\"";
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicPlaylist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.MusicPlaylist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CE878D929AF68C40078E233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicPlaylist/Preview Content\"";
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicPlaylist/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.MusicPlaylist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CE878DB29AF68C40078E233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.MusicPlaylistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlaylist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicPlaylist";
+			};
+			name = Debug;
+		};
+		2CE878DC29AF68C40078E233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.MusicPlaylistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicPlaylist.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicPlaylist";
+			};
+			name = Release;
+		};
+		2CE878DE29AF68C40078E233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.MusicPlaylistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicPlaylist;
+			};
+			name = Debug;
+		};
+		2CE878DF29AF68C40078E233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U4BQZ3AXAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sueunkim.MusicPlaylistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicPlaylist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CE878AE29AF68C30078E233 /* Build configuration list for PBXProject "MusicPlaylist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE878D529AF68C40078E233 /* Debug */,
+				2CE878D629AF68C40078E233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE878D729AF68C40078E233 /* Build configuration list for PBXNativeTarget "MusicPlaylist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE878D829AF68C40078E233 /* Debug */,
+				2CE878D929AF68C40078E233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE878DA29AF68C40078E233 /* Build configuration list for PBXNativeTarget "MusicPlaylistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE878DB29AF68C40078E233 /* Debug */,
+				2CE878DC29AF68C40078E233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE878DD29AF68C40078E233 /* Build configuration list for PBXNativeTarget "MusicPlaylistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE878DE29AF68C40078E233 /* Debug */,
+				2CE878DF29AF68C40078E233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CE878AB29AF68C30078E233 /* Project object */;
+}
